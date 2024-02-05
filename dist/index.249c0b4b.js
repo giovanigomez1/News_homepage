@@ -1,0 +1,2 @@
+const e=document.querySelector(".overlay"),t=document.querySelector(".nav"),n=t.querySelector(".nav__menu");t.querySelector(".nav__btn"),t.querySelector(".nav__menu--close_btn"),t.addEventListener("click",function(t){t.target.closest(".nav__btn")&&(e.classList.remove("hidden"),n.style.transform="translateX(-100%)",console.log("open menu")),t.target.closest(".nav__menu--close_btn")&&(e.classList.add("hidden"),n.style.transform="translateX(100%)")});
+//# sourceMappingURL=index.249c0b4b.js.map
