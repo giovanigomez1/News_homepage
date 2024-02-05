@@ -17,14 +17,20 @@
 <body>
   <div class="container">
     <nav class="nav">
-      <img src="/logo.92136df5.svg" alt="">
+      <img class="nav_logo" src="/logo.92136df5.svg" alt="">
       <ul class="nav__menu">
+        <button class="nav__menu--close_btn">
+          <img src="/icon-menu-close.48ac369a.svg" alt="">
+        </button>
         <li class="nav__menu--ele">Home</li>
         <li class="nav__menu--ele">New</li>
         <li class="nav__menu--ele">Popular</li>
         <li class="nav__menu--ele">Trending</li>
         <li class="nav__menu--ele">Categories</li>
       </ul>
+      <button class="nav__btn">
+        <img src="/icon-menu.013914f3.svg" alt="">
+      </button>
     </nav>  
     <main class="hero">
       <div class="hero__main">
@@ -97,6 +103,8 @@
       </div>
     </main>
   </div>
+
+  <div class="overlay hidden"></div>
   
   <div class="attribution hidden">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
