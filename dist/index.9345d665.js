@@ -13,7 +13,6 @@ nav.addEventListener("click", function(e) {
         overlay.classList.add("hidden");
         nav__menu.style.transform = "translateX(100%)";
     }
-// console.log(e.target)
 });
 
 //# sourceMappingURL=index.9345d665.js.map
